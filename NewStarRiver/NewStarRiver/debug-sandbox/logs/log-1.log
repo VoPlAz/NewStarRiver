@@ -1,0 +1,24 @@
+[92m2022-08-28 16:18:50 I/main: Starting mirai-console...[0m[m
+[92m2022-08-28 16:18:50 I/main: Backend: version 2.12.2, built on 2022-08-16 12:12:45.[0m[m
+[92m2022-08-28 16:18:50 I/main: Frontend Terminal: version 2.12.2, provided by Mamoe Technologies[0m[m
+[92m2022-08-28 16:18:50 I/main: Welcome to visit https://mirai.mamoe.net/[0m[m
+[91m2022-08-28 16:18:50 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".[0m[m
+[91m2022-08-28 16:18:50 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation[0m[m
+[91m2022-08-28 16:18:50 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.[0m[m
+[92m2022-08-28 16:18:50 I/plugin: Successfully loaded plugin StarRiver v0.1.0[0m[m
+[92m2022-08-28 16:18:51 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop[0m[m
+[92m2022-08-28 16:18:51 I/StarRiver: Plugin loaded![0m[m
+[92m2022-08-28 16:18:51 I/main: 1 plugin(s) enabled.[0m[m
+[92m2022-08-28 16:18:51 I/main: mirai-console started successfully.[0m[m
+[92m2022-08-28 16:19:16 I/WindowHelperJvm: Mirai 正在使用桌面环境. 如遇到验证码将会弹出对话框. 可添加 JVM 属性 `mirai.no-desktop` 以关闭.[0m[m
+[92m2022-08-28 16:19:16 I/WindowHelperJvm: Mirai is using desktop. Captcha will be thrown by window popup. You can add `mirai.no-desktop` to JVM properties (-Dmirai.no-desktop) to disable it.[0m[m
+[91m2022-08-28 16:19:17 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...[0m[m
+[92m2022-08-28 16:19:20 I/Bot.2334186011: Login successful[0m[m
+[92m2022-08-28 16:19:20 I/Bot.2334186011: Saved account secrets to local cache for fast login.[0m[m
+[92m2022-08-28 16:19:20 I/Bot.2334186011: Login successful.[0m[m
+[0m2022-08-28 16:19:22 V/Bot.2334186011: Event: BotOnlineEvent(bot=Bot(2334186011))[0m[m
+[92m2022-08-28 16:19:22 I/Bot.2334186011: Bot login successful.[0m[m
+[0m2022-08-28 16:19:36 V/Bot.2334186011: [我的世界温馨交流群(481605136)] 鲤鱼(2016185523) -> 各种糕科级小卖铺：http://ziq.fit/1004tr（超多糕科级以及好货资源等你探索[0m[m
+[0m2022-08-28 16:19:52 V/Bot.2334186011: [玄武大陆（游戏交流群）(1004589419)] Hacked by WindStream#1337(1514037660) -> 菜单[0m[m
+[0m2022-08-28 16:19:53 V/Bot.2334186011: Group(1004589419) <- test[0m[m
+[0m2022-08-28 16:19:57 V/Bot.2334186011: [玄武大陆（游戏交流群）(1004589419)] Hacked by WindStream#1337(1514037660) -> 6[0m[m

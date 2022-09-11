@@ -1,0 +1,1 @@
+C:\Users\Administrator\Desktop\NewStarRiver\NewStarRiver\build\classes\java\main\net\newstarriver\ModuleManager.class;C:\Users\Administrator\Desktop\NewStarRiver\NewStarRiver\build\classes\java\main\net\newstarriver\StarRiver.class

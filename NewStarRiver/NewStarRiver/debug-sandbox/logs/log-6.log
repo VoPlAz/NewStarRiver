@@ -1,0 +1,274 @@
+[92m2022-08-28 17:32:24 I/main: Starting mirai-console...[0m[m
+[92m2022-08-28 17:32:24 I/main: Backend: version 2.12.2, built on 2022-08-16 12:12:45.[0m[m
+[92m2022-08-28 17:32:24 I/main: Frontend Terminal: version 2.12.2, provided by Mamoe Technologies[0m[m
+[92m2022-08-28 17:32:24 I/main: Welcome to visit https://mirai.mamoe.net/[0m[m
+[91m2022-08-28 17:32:24 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".[0m[m
+[91m2022-08-28 17:32:24 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation[0m[m
+[91m2022-08-28 17:32:24 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.[0m[m
+[92m2022-08-28 17:32:25 I/plugin: Successfully loaded plugin StarRiver v0.1.0[0m[m
+[92m2022-08-28 17:32:25 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop[0m[m
+[92m2022-08-28 17:32:25 I/StarRiver: Plugin loaded![0m[m
+[92m2022-08-28 17:32:25 I/main: 1 plugin(s) enabled.[0m[m
+[92m2022-08-28 17:32:25 I/main: mirai-console started successfully.[0m[m
+[92m2022-08-28 17:32:40 I/WindowHelperJvm: Mirai 正在使用桌面环境. 如遇到验证码将会弹出对话框. 可添加 JVM 属性 `mirai.no-desktop` 以关闭.[0m[m
+[92m2022-08-28 17:32:40 I/WindowHelperJvm: Mirai is using desktop. Captcha will be thrown by window popup. You can add `mirai.no-desktop` to JVM properties (-Dmirai.no-desktop) to disable it.[0m[m
+[91m2022-08-28 17:32:41 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...[0m[m
+[92m2022-08-28 17:32:42 I/Bot.2334186011: Loaded account secrets from local cache.[0m[m
+[92m2022-08-28 17:32:42 I/Bot.2334186011: Saved account secrets to local cache for fast login.[0m[m
+[92m2022-08-28 17:32:43 I/Bot.2334186011: Login successful.[0m[m
+[0m2022-08-28 17:32:44 V/Bot.2334186011: Event: BotOnlineEvent(bot=Bot(2334186011))[0m[m
+[92m2022-08-28 17:32:44 I/Bot.2334186011: Bot login successful.[0m[m
+[0m2022-08-28 17:32:57 V/Bot.2334186011: [玄武大陆（游戏交流群）(1004589419)] Hacked by WindStream#1337(1514037660) -> 菜单[0m[m
+[0m2022-08-28 17:32:57 V/Bot.2334186011: Group(1004589419) <-             🎈菜单🎈            \n⚡娱乐菜单 关于作者⚡\n⚡运行状态 基础命令⚡\n ⚡—————————————⚡\n🎉StarRiver群管系统🎉[0m[m
+[0m2022-08-28 17:33:03 V/Bot.2334186011: [玄武大陆（游戏交流群）(1004589419)] Hacked by WindStream#1337(1514037660) -> 二维码5[0m[m
+[0m2022-08-28 17:33:04 V/Bot.2334186011: Group(1004589419) <- StarRiver:操作有误，请检查命令格式.[0m[m
+[0m2022-08-28 17:33:07 V/Bot.2334186011: [玄武大陆（游戏交流群）(1004589419)] 该群已被群主解散                                    (2781005288) -> [mirai:image:{7E796D00-3BC2-5DDF-4D0B-1E4D88679C06}.jpg, width=74, height=68, size=1886, type=JPG, isEmoji=true][0m[m
+[0m2022-08-28 17:33:08 V/Bot.2334186011: Group(1004589419) <- StarRiver:操作有误，请检查命令格式.[0m[m
+[0m2022-08-28 17:33:13 V/Bot.2334186011: [玄武大陆（游戏交流群）(1004589419)] Hacked by WindStream#1337(1514037660) -> 额[0m[m
+[31m2022-08-28 17:33:13 E/Bot.2334186011: java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl.broadcast$suspendImpl(EventDispatcher.kt:103)
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl$broadcast$1.invokeSuspend(EventDispatcher.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:202)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: java.lang.IllegalStateException: 未找到异常处理器. 请继承 SimpleListenerHost 中的 handleException 方法, 或在构造 SimpleListenerHost 时提供 CoroutineExceptionHandler
+------------
+Cannot find exception handler from coroutineContext. 
+Please extend SimpleListenerHost.handleException or provide a CoroutineExceptionHandler to the constructor of SimpleListenerHost
+	at net.mamoe.mirai.event.SimpleListenerHost.handleException(JvmMethodListeners.kt:192)
+	at net.mamoe.mirai.event.SimpleListenerHost$special$$inlined$CoroutineExceptionHandler$1.handleException(CoroutineExceptionHandler.kt:111)
+	at net.mamoe.mirai.internal.event.SafeListener.onEvent(SafeListener.kt:75)
+	at net.mamoe.mirai.internal.event.SafeListener$onEvent$1.invokeSuspend(SafeListener.kt)
+	... 9 more
+Caused by: net.mamoe.mirai.event.ExceptionInEventHandlerException: Exception in EventHandler
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternalKt.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:147)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternalKt.access$registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:1)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternalKt$registerEventHandler$callMethod$2.invokeSuspend(JvmMethodListenersInternal.kt:154)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	... 4 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternalKt.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:140)
+	... 10 more
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: 3
+	at java.lang.String.substring(String.java:1963)
+	at net.newstarriver.ModuleManager.onEvent(ModuleManager.java:83)
+	... 15 more
+[0m[m
+[0m2022-08-28 17:33:24 V/Bot.2334186011: [玄武大陆（游戏交流群）(1004589419)] Hacked by WindStream#1337(1514037660) -> 二维码 6[0m[m
+[0m2022-08-28 17:33:25 V/Bot.2334186011: Group(1004589419) <- [mirai:image:{824C4F10-FBA6-AA3D-5B93-91A24395928E}.png, width=128, height=128, size=306, type=PNG, isEmoji=false][0m[m
+[0m2022-08-28 17:33:29 V/Bot.2334186011: [玄武大陆（游戏交流群）(1004589419)] Hacked by WindStream#1337(1514037660) -> 二维码6[0m[m
+[0m2022-08-28 17:33:30 V/Bot.2334186011: Group(1004589419) <- StarRiver:操作有误，请检查命令格式.[0m[m
+[0m2022-08-28 17:33:35 V/Bot.2334186011: [玄武大陆（游戏交流群）(1004589419)] 该群已被群主解散                                    (2781005288) -> 二维码7[0m[m
+[0m2022-08-28 17:33:35 V/Bot.2334186011: Group(1004589419) <- StarRiver:操作有误，请检查命令格式.[0m[m
+[0m2022-08-28 17:33:40 V/Bot.2334186011: [玄武大陆（游戏交流群）(1004589419)] Hacked by WindStream#1337(1514037660) -> 6[0m[m
+[31m2022-08-28 17:33:40 E/Bot.2334186011: java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl.broadcast$suspendImpl(EventDispatcher.kt:103)
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl$broadcast$1.invokeSuspend(EventDispatcher.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:202)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: java.lang.IllegalStateException: 未找到异常处理器. 请继承 SimpleListenerHost 中的 handleException 方法, 或在构造 SimpleListenerHost 时提供 CoroutineExceptionHandler
+------------
+Cannot find exception handler from coroutineContext. 
+Please extend SimpleListenerHost.handleException or provide a CoroutineExceptionHandler to the constructor of SimpleListenerHost
+	at net.mamoe.mirai.event.SimpleListenerHost.handleException(JvmMethodListeners.kt:192)
+	at net.mamoe.mirai.event.SimpleListenerHost$special$$inlined$CoroutineExceptionHandler$1.handleException(CoroutineExceptionHandler.kt:111)
+	at net.mamoe.mirai.internal.event.SafeListener.onEvent(SafeListener.kt:75)
+	at net.mamoe.mirai.internal.event.SafeListener$onEvent$1.invokeSuspend(SafeListener.kt)
+	... 9 more
+Caused by: net.mamoe.mirai.event.ExceptionInEventHandlerException: Exception in EventHandler
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternalKt.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:147)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternalKt.access$registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:1)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternalKt$registerEventHandler$callMethod$2.invokeSuspend(JvmMethodListenersInternal.kt:154)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	... 4 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternalKt.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:140)
+	... 10 more
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: 3
+	at java.lang.String.substring(String.java:1963)
+	at net.newstarriver.ModuleManager.onEvent(ModuleManager.java:83)
+	... 15 more
+[0m[m
+[0m2022-08-28 17:33:50 V/Bot.2334186011: [玄武大陆（游戏交流群）(1004589419)] 该群已被群主解散                                    (2781005288) -> [mirai:image:{7E796D00-3BC2-5DDF-4D0B-1E4D88679C06}.jpg, width=74, height=68, size=1886, type=JPG, isEmoji=true][0m[m
+[0m2022-08-28 17:33:50 V/Bot.2334186011: Group(1004589419) <- StarRiver:操作有误，请检查命令格式.[0m[m
+[0m2022-08-28 17:33:55 V/Bot.2334186011: [玄武大陆（游戏交流群）(1004589419)] Hacked by WindStream#1337(1514037660) -> 刚刚为什么多出来一条[0m[m
+[0m2022-08-28 17:33:56 V/Bot.2334186011: Group(1004589419) <- StarRiver:操作有误，请检查命令格式.[0m[m
+[0m2022-08-28 17:34:03 V/Bot.2334186011: [玄武大陆（游戏交流群）(1004589419)] 该群已被群主解散                                    (2781005288) -> [mirai:at:1514037660] 你这搞个@回复吧[0m[m
+[0m2022-08-28 17:34:04 V/Bot.2334186011: Group(1004589419) <- StarRiver:操作有误，请检查命令格式.[0m[m
+[0m2022-08-28 17:34:09 V/Bot.2334186011: [玄武大陆（游戏交流群）(1004589419)] Hacked by WindStream#1337(1514037660) -> [mirai:origin:FORWARD,j6eklg46j4qQLyeMM7ZzTQG5iqc/94MdP1vh2yw1vh4jWjadhb1yVxonZ1uShWRp]ForwardMessage(preview=[Hacked by W...:  二维码5, MistyRain:  StarRiver:操作有误，请检查命令格式., 该群已被群主解散   ...:  [动画表情], MistyRain:  StarRiver:操作有误，请检查命令格式.], title=群聊的聊天记录, brief=[聊天记录], source=聊天记录, summary=查看4条转发消息, nodeList=[Node(senderId=1514037660, time=1661679235, senderName=Hacked by WindStream#1337, messageChain=二维码5), Node(senderId=2334186011, time=1661679235, senderName=MistyRain, messageChain=StarRiver:操作有误，请检查命令格式.), Node(senderId=2781005288, time=1661679239, senderName=该群已被群主解散                                    , messageChain=[mirai:image:{7E796D00-3BC2-5DDF-4D0B-1E4D88679C06}.mirai, width=74, height=68, size=1886, type=JPG, isEmoji=true]), Node(senderId=2334186011, time=1661679240, senderName=MistyRain, messageChain=StarRiver:操作有误，请检查命令格式.)])[0m[m
+[0m2022-08-28 17:34:09 V/Bot.2334186011: Group(1004589419) <- StarRiver:操作有误，请检查命令格式.[0m[m
+[0m2022-08-28 17:34:13 V/Bot.2334186011: [玄武大陆（游戏交流群）(1004589419)] Hacked by WindStream#1337(1514037660) -> 嗯[0m[m
+[31m2022-08-28 17:34:13 E/Bot.2334186011: java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl.broadcast$suspendImpl(EventDispatcher.kt:103)
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl$broadcast$1.invokeSuspend(EventDispatcher.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:202)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: java.lang.IllegalStateException: 未找到异常处理器. 请继承 SimpleListenerHost 中的 handleException 方法, 或在构造 SimpleListenerHost 时提供 CoroutineExceptionHandler
+------------
+Cannot find exception handler from coroutineContext. 
+Please extend SimpleListenerHost.handleException or provide a CoroutineExceptionHandler to the constructor of SimpleListenerHost
+	at net.mamoe.mirai.event.SimpleListenerHost.handleException(JvmMethodListeners.kt:192)
+	at net.mamoe.mirai.event.SimpleListenerHost$special$$inlined$CoroutineExceptionHandler$1.handleException(CoroutineExceptionHandler.kt:111)
+	at net.mamoe.mirai.internal.event.SafeListener.onEvent(SafeListener.kt:75)
+	at net.mamoe.mirai.internal.event.SafeListener$onEvent$1.invokeSuspend(SafeListener.kt)
+	... 9 more
+Caused by: net.mamoe.mirai.event.ExceptionInEventHandlerException: Exception in EventHandler
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternalKt.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:147)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternalKt.access$registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:1)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternalKt$registerEventHandler$callMethod$2.invokeSuspend(JvmMethodListenersInternal.kt:154)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	... 4 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternalKt.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:140)
+	... 10 more
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: 3
+	at java.lang.String.substring(String.java:1963)
+	at net.newstarriver.ModuleManager.onEvent(ModuleManager.java:83)
+	... 15 more
+[0m[m
+[0m2022-08-28 17:34:19 V/Bot.2334186011: [玄武大陆（游戏交流群）(1004589419)] Hacked by WindStream#1337(1514037660) -> 清屏3[0m[m
+[0m2022-08-28 17:34:20 V/Bot.2334186011: Group(1004589419) <- StarRiver:操作有误，请检查命令格式.[0m[m
+[0m2022-08-28 17:34:26 V/Bot.2334186011: [玄武大陆（游戏交流群）(1004589419)] Hacked by WindStream#1337(1514037660) -> 清屏 6[0m[m
+[0m2022-08-28 17:34:27 V/Bot.2334186011: Group(1004589419) <- StarRiver:操作有误，请检查命令格式.[0m[m
+[0m2022-08-28 17:34:28 V/Bot.2334186011: [玄武大陆（游戏交流群）(1004589419)] 该群已被群主解散                                    (2781005288) -> 不然乱识别很难受[0m[m
+[0m2022-08-28 17:34:29 V/Bot.2334186011: Group(1004589419) <- StarRiver:操作有误，请检查命令格式.[0m[m
+[0m2022-08-28 17:34:36 V/Bot.2334186011: [玄武大陆（游戏交流群）(1004589419)] Hacked by WindStream#1337(1514037660) -> 嗯[0m[m
+[31m2022-08-28 17:34:36 E/Bot.2334186011: java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl.broadcast$suspendImpl(EventDispatcher.kt:103)
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl$broadcast$1.invokeSuspend(EventDispatcher.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:202)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: java.lang.IllegalStateException: 未找到异常处理器. 请继承 SimpleListenerHost 中的 handleException 方法, 或在构造 SimpleListenerHost 时提供 CoroutineExceptionHandler
+------------
+Cannot find exception handler from coroutineContext. 
+Please extend SimpleListenerHost.handleException or provide a CoroutineExceptionHandler to the constructor of SimpleListenerHost
+	at net.mamoe.mirai.event.SimpleListenerHost.handleException(JvmMethodListeners.kt:192)
+	at net.mamoe.mirai.event.SimpleListenerHost$special$$inlined$CoroutineExceptionHandler$1.handleException(CoroutineExceptionHandler.kt:111)
+	at net.mamoe.mirai.internal.event.SafeListener.onEvent(SafeListener.kt:75)
+	at net.mamoe.mirai.internal.event.SafeListener$onEvent$1.invokeSuspend(SafeListener.kt)
+	... 9 more
+Caused by: net.mamoe.mirai.event.ExceptionInEventHandlerException: Exception in EventHandler
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternalKt.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:147)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternalKt.access$registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:1)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternalKt$registerEventHandler$callMethod$2.invokeSuspend(JvmMethodListenersInternal.kt:154)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	... 4 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternalKt.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:140)
+	... 10 more
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: 3
+	at java.lang.String.substring(String.java:1963)
+	at net.newstarriver.ModuleManager.onEvent(ModuleManager.java:83)
+	... 14 more
+[0m[m
+[0m2022-08-28 17:34:41 V/Bot.2334186011: [玄武大陆（游戏交流群）(1004589419)] Hacked by WindStream#1337(1514037660) -> 你发下清屏[0m[m
+[0m2022-08-28 17:34:42 V/Bot.2334186011: Group(1004589419) <- StarRiver:操作有误，请检查命令格式.[0m[m
+[0m2022-08-28 17:34:53 V/Bot.2334186011: [玄武大陆（游戏交流群）(1004589419)] 该群已被群主解散                                    (2781005288) -> 清屏 66[0m[m
+[0m2022-08-28 17:34:54 V/Bot.2334186011: Group(1004589419) <- StarRiver:操作有误，请检查命令格式.[0m[m
+[0m2022-08-28 17:35:02 V/Bot.2334186011: [玄武大陆（游戏交流群）(1004589419)] Hacked by WindStream#1337(1514037660) -> 额[0m[m
+[31m2022-08-28 17:35:02 E/Bot.2334186011: java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+java.lang.IllegalStateException: Exception while broadcasting event 'GroupMessageEvent'
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl.broadcast$suspendImpl(EventDispatcher.kt:103)
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl$broadcast$1.invokeSuspend(EventDispatcher.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:202)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: java.lang.IllegalStateException: 未找到异常处理器. 请继承 SimpleListenerHost 中的 handleException 方法, 或在构造 SimpleListenerHost 时提供 CoroutineExceptionHandler
+------------
+Cannot find exception handler from coroutineContext. 
+Please extend SimpleListenerHost.handleException or provide a CoroutineExceptionHandler to the constructor of SimpleListenerHost
+	at net.mamoe.mirai.event.SimpleListenerHost.handleException(JvmMethodListeners.kt:192)
+	at net.mamoe.mirai.event.SimpleListenerHost$special$$inlined$CoroutineExceptionHandler$1.handleException(CoroutineExceptionHandler.kt:111)
+	at net.mamoe.mirai.internal.event.SafeListener.onEvent(SafeListener.kt:75)
+	at net.mamoe.mirai.internal.event.SafeListener$onEvent$1.invokeSuspend(SafeListener.kt)
+	... 9 more
+Caused by: net.mamoe.mirai.event.ExceptionInEventHandlerException: Exception in EventHandler
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternalKt.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:147)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternalKt.access$registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:1)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternalKt$registerEventHandler$callMethod$2.invokeSuspend(JvmMethodListenersInternal.kt:154)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	... 4 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternalKt.registerEventHandler$callMethod$invokeWithErrorReport(JvmMethodListenersInternal.kt:140)
+	... 10 more
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: 3
+	at java.lang.String.substring(String.java:1963)
+	at net.newstarriver.ModuleManager.onEvent(ModuleManager.java:83)
+	... 14 more
+[0m[m
+[0m2022-08-28 17:35:07 V/Bot.2334186011: [玄武大陆（游戏交流群）(1004589419)] 该群已被群主解散                                    (2781005288) -> 清屏 6[0m[m
+[0m2022-08-28 17:35:08 V/Bot.2334186011: Group(1004589419) <- StarRiver:操作有误，请检查命令格式.[0m[m
+[0m2022-08-28 17:35:13 V/Bot.2334186011: [玄武大陆（游戏交流群）(1004589419)] Hacked by WindStream#1337(1514037660) -> 我的逻辑写乱了[0m[m
+[0m2022-08-28 17:35:13 V/Bot.2334186011: Group(1004589419) <- StarRiver:操作有误，请检查命令格式.[0m[m
+[0m2022-08-28 17:35:17 V/Bot.2334186011: [玄武大陆（游戏交流群）(1004589419)] Hacked by WindStream#1337(1514037660) -> 现在看不懂了[0m[m
+[0m2022-08-28 17:35:18 V/Bot.2334186011: Group(1004589419) <- StarRiver:操作有误，请检查命令格式.[0m[m

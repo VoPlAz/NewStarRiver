@@ -1,0 +1,26 @@
+[92m2022-08-28 18:36:29 I/main: Starting mirai-console...[0m[m
+[92m2022-08-28 18:36:29 I/main: Backend: version 2.12.2, built on 2022-08-16 12:12:45.[0m[m
+[92m2022-08-28 18:36:29 I/main: Frontend Terminal: version 2.12.2, provided by Mamoe Technologies[0m[m
+[92m2022-08-28 18:36:29 I/main: Welcome to visit https://mirai.mamoe.net/[0m[m
+[91m2022-08-28 18:36:30 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".[0m[m
+[91m2022-08-28 18:36:30 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation[0m[m
+[91m2022-08-28 18:36:30 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.[0m[m
+[92m2022-08-28 18:36:30 I/plugin: Successfully loaded plugin StarRiver v0.1.0[0m[m
+[92m2022-08-28 18:36:31 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop[0m[m
+[92m2022-08-28 18:36:31 I/StarRiver: Plugin loaded![0m[m
+[92m2022-08-28 18:36:31 I/main: 1 plugin(s) enabled.[0m[m
+[92m2022-08-28 18:36:31 I/main: mirai-console started successfully.[0m[m
+[92m2022-08-28 18:36:43 I/WindowHelperJvm: Mirai 正在使用桌面环境. 如遇到验证码将会弹出对话框. 可添加 JVM 属性 `mirai.no-desktop` 以关闭.[0m[m
+[92m2022-08-28 18:36:43 I/WindowHelperJvm: Mirai is using desktop. Captcha will be thrown by window popup. You can add `mirai.no-desktop` to JVM properties (-Dmirai.no-desktop) to disable it.[0m[m
+[91m2022-08-28 18:36:43 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...[0m[m
+[92m2022-08-28 18:36:45 I/Bot.2334186011: Loaded account secrets from local cache.[0m[m
+[92m2022-08-28 18:36:45 I/Bot.2334186011: Saved account secrets to local cache for fast login.[0m[m
+[92m2022-08-28 18:36:45 I/Bot.2334186011: Login successful.[0m[m
+[0m2022-08-28 18:36:46 V/Bot.2334186011: Event: BotOnlineEvent(bot=Bot(2334186011))[0m[m
+[92m2022-08-28 18:36:46 I/Bot.2334186011: Bot login successful.[0m[m
+[0m2022-08-28 18:38:53 V/Bot.2334186011: [玄武大陆（游戏交流群）(1004589419)] Hacked by WindStream#1337(1514037660) -> 菜单[0m[m
+[0m2022-08-28 18:38:53 V/Bot.2334186011: Group(1004589419) <-             🎈菜单🎈            \n⚡娱乐菜单 关于作者⚡\n⚡运行状态 基础命令⚡\n ⚡—————————————⚡\n🎉StarRiver群管系统🎉[0m[m
+[0m2022-08-28 18:38:59 V/Bot.2334186011: [玄武大陆（游戏交流群）(1004589419)] Hacked by WindStream#1337(1514037660) -> 运行状态[0m[m
+[0m2022-08-28 18:39:00 V/Bot.2334186011: Group(1004589419) <- ⚡运行中...\n⚡插件名:StarRiver\n⚡插件版本:1.0.0\n⚡Java版本:1.8.0_341\n⚡系统:Windows 7\n⚡系统架构:amd64\n⚡运行时长:0天0小时2分钟28秒\n⚡—————————————⚡\n🎉StarRiver群管系统🎉[0m[m
+[0m2022-08-28 18:39:10 V/Bot.2334186011: [玄武大陆（游戏交流群）(1004589419)] Hacked by WindStream#1337(1514037660) -> 我要开纪[0m[m
+[0m2022-08-28 18:39:13 V/Bot.2334186011: Group(1004589419) <- net.mamoe.mirai.message.data.MessageChainBuilder@79c04a78[0m[m
